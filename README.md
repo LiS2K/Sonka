@@ -1,4 +1,14 @@
-public double[] array;
+      public Form1()
+        {
+            InitializeComponent();
+        }
+        
+        
+        
+        
+        
+        
+        public double[] array;
         public void Fwrite(string path, decimal rangeBegin, decimal rangeEnd, decimal rangeStep)
         {
             FileInfo fileInfo = new FileInfo(path);
@@ -56,4 +66,5 @@ public double[] array;
               richTextBox1.Text += "Такого файла не существует";
             }
         }
-       
+    }
+}
